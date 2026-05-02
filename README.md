@@ -81,7 +81,8 @@ pip install -r requirements.txt
 Create .env:
 GROQ_API_KEY=your_api_key
 
-services/database.py
+services/database.py:
+DATABASE_URL = "postgresql://postgres:Your_Password@localhost:5432/ai_crm"
 replace Your_Password with actual db_password
 
 Run:
