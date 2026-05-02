@@ -79,7 +79,10 @@ cd backend
 pip install -r requirements.txt  
 
 Create .env:
-GROQ_API_KEY=your_api_key  
+GROQ_API_KEY=your_api_key
+
+services/database.py
+replace Your_Password with actual db_password
 
 Run:
 uvicorn main:app --reload  
